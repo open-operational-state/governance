@@ -6,7 +6,7 @@ This roadmap describes the phased approach for Open Operational State. Phases ar
 
 ## Phase 1 — Scaffolding and Structure
 
-**Status: In Progress**
+**Status: Complete**
 
 Establish serious organizational and repository structure before drafting normative technical details.
 
@@ -23,7 +23,7 @@ Deliverables:
 
 ## Phase 2 — Architecture and Terminology
 
-**Status: Not Started**
+**Status: In Progress**
 
 Lock the conceptual model boundaries and stabilize terminology.
 
