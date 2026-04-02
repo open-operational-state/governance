@@ -26,7 +26,7 @@ The normalized operational state of a subject at a point in time, within a speci
 
 ## Condition Vocabulary
 
-The defined set of allowed condition values within a profile. A condition vocabulary specifies the valid values, their meanings, and whether they are orderable (have severity ordering) or categorical (represent distinct states without inherent ordering). Each profile defines its own condition vocabulary.
+The defined set of allowed condition values within a profile. A condition vocabulary specifies the valid values, their meanings, and whether they are orderable (have severity ordering) or categorical (represent distinct states without inherent ordering). Each profile defines its own condition vocabulary. Custom extension values use the `x-{vendor}-{value}` prefix convention. See the [Condition Vocabularies specification](https://github.com/open-operational-state/status-spec/blob/main/spec/condition-vocabularies.md) for normative values.
 
 ## Conformance
 
@@ -105,4 +105,12 @@ Temporal metadata associated with a condition statement. The core model distingu
 
 ## Well-Known Resource
 
-A predictable URI path (per RFC 8615) used for discovery. In the context of this standard, a well-known resource serves as a discovery document — not necessarily the operational-state payload itself.
+A predictable URI path (per RFC 8615) used for discovery. In the context of this standard, the well-known path is `/.well-known/operational-state`. It serves a discovery document — not necessarily the operational-state payload itself.
+
+## Conformance Level
+
+A tiered classification of how thoroughly a target implements the standard. v1 defines three levels: **Basic** (minimal viable conformance — valid response satisfying at least Liveness), **Standard** (full profile compliance with discovery support), and **Extended** (multiple profiles, rich discovery, explicit provenance).
+
+## Discovery Document
+
+A JSON document served at the well-known path that enumerates available operational-state resources, their profiles, serializations, and authentication requirements. Enables monitors to discover resources without trial-and-error probing.

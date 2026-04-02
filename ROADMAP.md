@@ -23,7 +23,7 @@ Deliverables:
 
 ## Phase 2 — Architecture and Terminology
 
-**Status: In Progress**
+**Status: Complete**
 
 Lock the conceptual model boundaries and stabilize terminology.
 
@@ -38,21 +38,22 @@ Deliverables:
 
 ## Phase 3 — Specification Drafts
 
-**Status: Not Started**
+**Status: In Progress**
 
-Create the first serious specification documents, building on stabilized architecture and terminology.
+Create normative specification documents building on stabilized architecture and terminology.
 
 Deliverables:
 
-- Core model specification draft
-- Profile specification draft(s)
-- Serialization specification draft(s)
-- Adapter specification framework
-- Discovery specification draft
-- Capabilities/negotiation specification draft
-- Prior art analysis and compatibility mapping
-- Conformance level definitions
-- Initial test fixtures
+- Core model normative specification (RFC 2119 language)
+- Condition vocabulary definitions with per-profile values and ecosystem mapping
+- Profile normative specifications (Liveness, Readiness, Health, Status)
+- Serialization specifications (health-response, service-status, http-status-only)
+- Discovery specification (well-known path, link relations, discovery document)
+- Capabilities/negotiation specification
+- Adapter specifications (plain HTTP, health-check draft)
+- Conformance level definitions (Basic, Standard, Extended)
+- Initial test fixtures across all layers
+- Locked decisions: vocabulary values, well-known path, link relation types, extension format, field names
 
 ## Future Phases
 
