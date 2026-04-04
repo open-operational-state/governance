@@ -109,7 +109,7 @@ The following repositories have been created under `open-operational-state`:
 - `governance`
 - `status-spec`
 - `status-conformance`
-- `status-tooling`
+- `status-tooling-js`
 
 ### 5.2 Intended Purpose of Each Repository
 
@@ -131,7 +131,7 @@ Primary technical specification repository for the operational-state standard.
 #### `status-conformance`
 Conformance philosophy, fixtures, test cases, compatibility matrices, and related validation material.
 
-#### `status-tooling`
+#### `status-tooling-js`
 Vendor-neutral reference tooling, ideally as a monorepo for shared packages and examples.
 
 ### 5.3 Repositories Not to Create Yet
@@ -555,7 +555,7 @@ The immediate repository set under `open-operational-state` is:
 - `governance`
 - `status-spec`
 - `status-conformance`
-- `status-tooling`
+- `status-tooling-js`
 
 ### 20.2 Initial Work Sequence
 The first implementation phase is repository scaffolding, not final spec authorship.

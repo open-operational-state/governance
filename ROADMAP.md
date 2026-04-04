@@ -94,7 +94,7 @@ A single delivery milestone typically touches multiple packages. For example, "H
 
 ### Deliverables
 
-- Substantive implementation in all `status-tooling` packages
+- Substantive implementation in all `status-tooling-js` packages
 - Automated conformance suite using `status-conformance` fixtures
 - CLI for endpoint probing, validation, and inspection
 - Expanded fixture library (edge cases, negative tests, integration scenarios)
@@ -116,4 +116,4 @@ The following are anticipated but not yet formally scoped:
 - Do not skip phases or begin later-phase work before prerequisites are met
 - Do not expand scope beyond web services for v1
 - Do not create new repositories without explicit approval
-- Do not create new `status-tooling` packages without explicit approval
+- Do not create new `status-tooling-js` packages without explicit approval

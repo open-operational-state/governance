@@ -21,7 +21,7 @@ This repository contains the organizational authority documents for [Open Operat
 |---|---|
 | [status-spec](https://github.com/open-operational-state/status-spec) | Technical specification |
 | [status-conformance](https://github.com/open-operational-state/status-conformance) | Conformance definitions, fixtures, and test taxonomy |
-| [status-tooling](https://github.com/open-operational-state/status-tooling) | Vendor-neutral reference tooling |
+| [status-tooling-js](https://github.com/open-operational-state/status-tooling-js) | Vendor-neutral reference tooling (JavaScript) |
 
 ## Project Rules
 

@@ -26,7 +26,7 @@ The initiative maintains the following repositories:
 | `governance` | Charter, governance model, terminology, roadmap |
 | `status-spec` | Technical specification |
 | `status-conformance` | Conformance definitions, fixtures, test taxonomy |
-| `status-tooling` | Vendor-neutral reference tooling |
+| `status-tooling-js` | Vendor-neutral reference tooling (JavaScript) |
 
 Additional repositories require explicit approval per [PROJECT_RULES.md](https://github.com/open-operational-state/.github/blob/main/PROJECT_RULES.md).
 
